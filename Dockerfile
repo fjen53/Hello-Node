@@ -1,5 +1,5 @@
 # use a node base image
-FROM centos
+FROM docker pull centos:centos7.9.2009
 
 #uptade our server
 RUN yum update -y
